@@ -1,0 +1,44 @@
+{
+  "links": [
+    {
+      "type": "about page",
+      "url": "https://www.karczmawkomorowicach.pl/pl/O-naszej-karczmie.htm"
+    },
+    {
+      "type": "gallery page",
+      "url": "https://www.karczmawkomorowicach.pl/pl/Galeria"
+    },
+    {
+      "type": "offers page",
+      "url": "https://www.karczmawkomorowicach.pl/pl/Oferta"
+    },
+    {
+      "type": "weddings page",
+      "url": "https://www.karczmawkomorowicach.pl/pl/Oferta/Wesela"
+    },
+    {
+      "type": "business events page",
+      "url": "https://www.karczmawkomorowicach.pl/pl/Oferta/Dla-biznesu"
+    },
+    {
+      "type": "family events page",
+      "url": "https://www.karczmawkomorowicach.pl/pl/Oferta/Imprezy-rodzinne"
+    },
+    {
+      "type": "catering page",
+      "url": "https://www.karczmawkomorowicach.pl/pl/Catering"
+    },
+    {
+      "type": "delivery options page",
+      "url": "https://www.karczmawkomorowicach.pl/pl/Dania-z-dowozem"
+    },
+    {
+      "type": "contact page",
+      "url": "https://www.karczmawkomorowicach.pl/pl/kontakt.htm"
+    },
+    {
+      "type": "facebook page",
+      "url": "https://web.facebook.com/Karczma-W-Komorowicach-1393206104241528/"
+    }
+  ]
+}
