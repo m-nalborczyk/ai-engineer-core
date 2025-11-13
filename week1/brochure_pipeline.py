@@ -1,12 +1,19 @@
 """
 Brochure Generation Pipeline
 ----------------------------
-This module scrapes a company website, identifies relevant links,
-builds a humorous brochure, translates it to a target language,
-summarizes it, and extracts structured company data.
+Scrapes a company website.
 
-Requires:
-    pip install openai python-dotenv requests beautifulsoup4 IPython
+Identifies the most relevant pages (About, Careers, etc.).
+
+Generates a witty, engaging company brochure.
+
+Translates it into a chosen language.
+
+Produces a concise executive summary.
+
+Extracts structured company data (JSON format).
+
+Saves all outputs locally for easy sharing.
 """
 
 import os
