@@ -38,7 +38,7 @@ def fetch_documents():
 
 
 def create_chunks(documents):
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=200)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1666, chunk_overlap=200)
     chunks = text_splitter.split_documents(documents)
     return chunks
 
