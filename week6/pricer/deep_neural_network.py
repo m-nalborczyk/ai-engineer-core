@@ -63,7 +63,8 @@ class DeepNeuralNetworkRunner:
         self.val_data = val
         self.vectorizer = None
         self.model = None
-        self.device = None
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        print(f"Using device: {self.device}")
         self.loss_function = None
         self.optimizer = None
         self.scheduler = None
@@ -161,8 +162,10 @@ class DeepNeuralNetworkRunner:
         torch.save(self.model.state_dict(), path)
 
     def load(self, path):
-        self.model.load_state_dict(torch.load(path))
+        state = torch.load(path, map_location=self.device)
+        self.model.load_state_dict(state)
         self.model.to(self.device)
+        print("Model loaded successfully")
 
     def inference(self, item):
         self.model.eval()
